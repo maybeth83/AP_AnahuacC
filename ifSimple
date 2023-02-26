@@ -1,0 +1,25 @@
+//C++
+//Ejemplo de la la estructura if 
+//Estructura simple
+//Programa que dada una calificación, la evalúa y si es mayor a 6
+//imprime en pantalla "Aprobado"
+
+#include <iostream>
+
+using namespace std;
+
+int main (){
+  //Declaración de variables
+  int cal;
+  
+  //Solicitud de datos al usuario
+  cout << "Escribe tu calificación";
+  cin >> cal;
+  
+  if (cal > 6) {
+    cout << "Aprobado";
+  }
+  
+  return 0;
+  
+}
